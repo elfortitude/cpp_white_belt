@@ -1,3 +1,19 @@
+/*
+ * Реализуйте справочник столиц стран.
+ * На вход программе поступают следующие запросы:
+ *
+ * CHANGE_CAPITAL country new_capital — изменение столицы страны country
+ * на new_capital, либо добавление такой страны с такой столицей, если
+ * раньше её не было.
+ *
+ * RENAME old_country_name new_country_name — переименование страны из
+ * old_country_name в new_country_name.
+ *
+ * ABOUT country — вывод столицы страны country.
+ *
+ * DUMP — вывод столиц всех стран.
+*/
+
 #include <iostream>
 #include <map>
 #include <string>
